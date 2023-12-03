@@ -9,22 +9,22 @@ rm_hw:
     right_front_wheel_motor:
       bus: can0
       id: 0x202
-      type: rm_3508
+      type: rm_2006
       lp_cutoff_frequency: 60
     left_front_wheel_motor:
       bus: can0
       id: 0x201
-      type: rm_3508
+      type: rm_2006
       lp_cutoff_frequency: 60
     left_back_wheel_motor:
       bus: can0
       id: 0x204
-      type: rm_3508
+   src/sl_control/rm_control/rm_hw/launch/rm_hw.launch   type: rm_2006
       lp_cutoff_frequency: 60
     right_back_wheel_motor:
       bus: can0
       id: 0x203
-      type: rm_3508
+      type: rm_2006
       lp_cutoff_frequency: 60
    
   # imus:
