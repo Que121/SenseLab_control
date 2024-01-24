@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)"
+	BuildStamp="20240113-0430-Experimental"
+	Name="ubuntu"
+	Generator="ctest-3.16.3"
+	CompilerName="/usr/bin/aarch64-linux-gnu-g++"
+	CompilerVersion="9.4.0"
+	OSName="Linux"
+	Hostname="ubuntu"
+	OSRelease="5.10.120-tegra"
+	OSVersion="#1 SMP PREEMPT Tue Aug 1 12:32:50 PDT 2023"
+	OSPlatform="aarch64"
+	Is64Bits="1"
+	VendorString=""
+	VendorID="Unknown Manufacturer"
+	FamilyID="8"
+	ModelID="0"
+	ProcessorCacheSize="0"
+	NumberOfLogicalCPU="8"
+	NumberOfPhysicalCPU="1"
+	TotalVirtualMemory="7761"
+	TotalPhysicalMemory="15523"
+	LogicalProcessorsPerPhysical="8"
+	ProcessorClockFrequency="0"
+	>
+	<Testing>
+		<StartDateTime>Jan 13 12:36 CST</StartDateTime>
+		<StartTestTime>1705120586</StartTestTime>
+		<TestList/>
+		<EndDateTime>Jan 13 12:36 CST</EndDateTime>
+		<EndTestTime>1705120586</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

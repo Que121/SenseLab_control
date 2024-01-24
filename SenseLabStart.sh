@@ -8,7 +8,6 @@ gnome-terminal --tab -- bash -c "mon launch sl_start load_controllers.launch"
 # 启动控制器
 rosrun controller_manager controller_manager start controllers/robot_state_controller
 rosrun controller_manager controller_manager start controllers/chassis_controller
-sleep 5s
 # 设置参数
 gnome-terminal --tab -- bash -c "rostopic pub /cmd_chassis rm_msgs/ChassisCmd \"mode: 0
 accel:

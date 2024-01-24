@@ -1,0 +1,67 @@
+[
+{
+  "directory": "/home/sl/sl_ws/src/sl_control/build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"rm_common\\\" -I/home/sl/sl_ws/src/sl_control/rm_control/rm_common/include -I/home/sl/sl_ws/devel/.private/rm_msgs/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -isystem /usr/src/googletest/googletest/include -isystem /usr/src/googletest/googletest   -pthread -g   -Wall -Werror -Wno-enum-compare -DGTEST_HAS_PTHREAD=1 -std=gnu++14 -o CMakeFiles/lqr_test.dir/test/unit_test_lqr.cpp.o -c /home/sl/sl_ws/src/sl_control/rm_control/rm_common/test/unit_test_lqr.cpp",
+  "file": "/home/sl/sl_ws/src/sl_control/rm_control/rm_common/test/unit_test_lqr.cpp"
+},
+{
+  "directory": "/home/sl/sl_ws/src/sl_control/build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"rm_common\\\" -I/home/sl/sl_ws/src/sl_control/rm_control/rm_common/include -I/home/sl/sl_ws/devel/.private/rm_msgs/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -isystem /usr/src/googletest/googletest/include -isystem /usr/src/googletest/googletest   -pthread -g   -Wall -Werror -Wno-enum-compare -DGTEST_HAS_PTHREAD=1 -std=gnu++14 -o CMakeFiles/lqr_test.dir/test/LqrTest.cpp.o -c /home/sl/sl_ws/src/sl_control/rm_control/rm_common/test/LqrTest.cpp",
+  "file": "/home/sl/sl_ws/src/sl_control/rm_control/rm_common/test/LqrTest.cpp"
+},
+{
+  "directory": "/home/sl/sl_ws/src/sl_control/build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"rm_common\\\" -I/home/sl/sl_ws/src/sl_control/rm_control/rm_common/include -I/home/sl/sl_ws/devel/.private/rm_msgs/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3   -pthread -g   -Wall -Werror -Wno-enum-compare -std=gnu++14 -o CMakeFiles/test_kalman.dir/test/test_kalman_filter.cpp.o -c /home/sl/sl_ws/src/sl_control/rm_control/rm_common/test/test_kalman_filter.cpp",
+  "file": "/home/sl/sl_ws/src/sl_control/rm_control/rm_common/test/test_kalman_filter.cpp"
+},
+{
+  "directory": "/home/sl/sl_ws/src/sl_control/build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"rm_common\\\" -Drm_common_EXPORTS -I/home/sl/sl_ws/src/sl_control/rm_control/rm_common/include -I/home/sl/sl_ws/devel/.private/rm_msgs/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3   -pthread -g -fPIC   -Wall -Werror -Wno-enum-compare -std=gnu++14 -o CMakeFiles/rm_common.dir/src/filter/filters.cpp.o -c /home/sl/sl_ws/src/sl_control/rm_control/rm_common/src/filter/filters.cpp",
+  "file": "/home/sl/sl_ws/src/sl_control/rm_control/rm_common/src/filter/filters.cpp"
+},
+{
+  "directory": "/home/sl/sl_ws/src/sl_control/build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"rm_common\\\" -Drm_common_EXPORTS -I/home/sl/sl_ws/src/sl_control/rm_control/rm_common/include -I/home/sl/sl_ws/devel/.private/rm_msgs/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3   -pthread -g -fPIC   -Wall -Werror -Wno-enum-compare -std=gnu++14 -o CMakeFiles/rm_common.dir/src/filter/imu_complementary_filter.cpp.o -c /home/sl/sl_ws/src/sl_control/rm_control/rm_common/src/filter/imu_complementary_filter.cpp",
+  "file": "/home/sl/sl_ws/src/sl_control/rm_control/rm_common/src/filter/imu_complementary_filter.cpp"
+},
+{
+  "directory": "/home/sl/sl_ws/src/sl_control/build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"rm_common\\\" -Drm_common_EXPORTS -I/home/sl/sl_ws/src/sl_control/rm_control/rm_common/include -I/home/sl/sl_ws/devel/.private/rm_msgs/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3   -pthread -g -fPIC   -Wall -Werror -Wno-enum-compare -std=gnu++14 -o CMakeFiles/rm_common.dir/src/filter/imu_filter_base.cpp.o -c /home/sl/sl_ws/src/sl_control/rm_control/rm_common/src/filter/imu_filter_base.cpp",
+  "file": "/home/sl/sl_ws/src/sl_control/rm_control/rm_common/src/filter/imu_filter_base.cpp"
+},
+{
+  "directory": "/home/sl/sl_ws/src/sl_control/build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"rm_common\\\" -Drm_common_EXPORTS -I/home/sl/sl_ws/src/sl_control/rm_control/rm_common/include -I/home/sl/sl_ws/devel/.private/rm_msgs/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3   -pthread -g -fPIC   -Wall -Werror -Wno-enum-compare -std=gnu++14 -o CMakeFiles/rm_common.dir/src/filter/lp_filter.cpp.o -c /home/sl/sl_ws/src/sl_control/rm_control/rm_common/src/filter/lp_filter.cpp",
+  "file": "/home/sl/sl_ws/src/sl_control/rm_control/rm_common/src/filter/lp_filter.cpp"
+},
+{
+  "directory": "/home/sl/sl_ws/src/sl_control/build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"rm_common\\\" -Drm_common_EXPORTS -I/home/sl/sl_ws/src/sl_control/rm_control/rm_common/include -I/home/sl/sl_ws/devel/.private/rm_msgs/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3   -pthread -g -fPIC   -Wall -Werror -Wno-enum-compare -std=gnu++14 -o CMakeFiles/rm_common.dir/src/ori_tool.cpp.o -c /home/sl/sl_ws/src/sl_control/rm_control/rm_common/src/ori_tool.cpp",
+  "file": "/home/sl/sl_ws/src/sl_control/rm_control/rm_common/src/ori_tool.cpp"
+},
+{
+  "directory": "/home/sl/sl_ws/src/sl_control/build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"rm_common\\\" -Drm_common_EXPORTS -I/home/sl/sl_ws/src/sl_control/rm_control/rm_common/include -I/home/sl/sl_ws/devel/.private/rm_msgs/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3   -pthread -g -fPIC   -Wall -Werror -Wno-enum-compare -std=gnu++14 -o CMakeFiles/rm_common.dir/src/tf_rt_broadcaster.cpp.o -c /home/sl/sl_ws/src/sl_control/rm_control/rm_common/src/tf_rt_broadcaster.cpp",
+  "file": "/home/sl/sl_ws/src/sl_control/rm_control/rm_common/src/tf_rt_broadcaster.cpp"
+},
+{
+  "directory": "/home/sl/sl_ws/src/sl_control/build/gtest/googlemock",
+  "command": "/usr/bin/aarch64-linux-gnu-g++  -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgmock_main_EXPORTS -isystem /usr/src/googletest/googlemock/include -isystem /usr/src/googletest/googlemock -isystem /usr/src/googletest/googletest/include -isystem /usr/src/googletest/googletest  -g -fPIC   -Wall -Werror -Wno-enum-compare -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -DGTEST_HAS_PTHREAD=1 -std=c++11 -o CMakeFiles/gmock_main.dir/src/gmock_main.cc.o -c /usr/src/googletest/googlemock/src/gmock_main.cc",
+  "file": "/usr/src/googletest/googlemock/src/gmock_main.cc"
+},
+{
+  "directory": "/home/sl/sl_ws/src/sl_control/build/gtest/googlemock",
+  "command": "/usr/bin/aarch64-linux-gnu-g++  -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgmock_EXPORTS -I/usr/src/googletest/googlemock/include -I/usr/src/googletest/googlemock -isystem /usr/src/googletest/googletest/include -isystem /usr/src/googletest/googletest  -g -fPIC   -Wall -Werror -Wno-enum-compare -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -DGTEST_HAS_PTHREAD=1 -std=c++11 -o CMakeFiles/gmock.dir/src/gmock-all.cc.o -c /usr/src/googletest/googlemock/src/gmock-all.cc",
+  "file": "/usr/src/googletest/googlemock/src/gmock-all.cc"
+},
+{
+  "directory": "/home/sl/sl_ws/src/sl_control/build/gtest/googletest",
+  "command": "/usr/bin/aarch64-linux-gnu-g++  -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgtest_main_EXPORTS -isystem /usr/src/googletest/googletest/include -isystem /usr/src/googletest/googletest  -g -fPIC   -Wall -Werror -Wno-enum-compare -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -DGTEST_HAS_PTHREAD=1 -std=c++11 -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /usr/src/googletest/googletest/src/gtest_main.cc",
+  "file": "/usr/src/googletest/googletest/src/gtest_main.cc"
+},
+{
+  "directory": "/home/sl/sl_ws/src/sl_control/build/gtest/googletest",
+  "command": "/usr/bin/aarch64-linux-gnu-g++  -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgtest_EXPORTS -I/usr/src/googletest/googletest/include -I/usr/src/googletest/googletest  -g -fPIC   -Wall -Werror -Wno-enum-compare -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=c++11 -o CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /usr/src/googletest/googletest/src/gtest-all.cc",
+  "file": "/usr/src/googletest/googletest/src/gtest-all.cc"
+}
+]
