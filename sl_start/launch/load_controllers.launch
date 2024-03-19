@@ -3,7 +3,7 @@
     <arg name="ekf" default="false"/>
     <arg name="odom_tf" default="true"/>
 
-    <rosparam file="$(find sl_start)/config/SenseLab_controllers.yaml" command="load"/>
+    <rosparam file="$(find sl_start)/config/MecanumController.yaml" command="load"/>
     <rosparam if="$(arg ekf)" param="controllers/chassis_controller/enable_odom_tf">false</rosparam>
     
     <node name="controller_loader" pkg="controller_manager" type="controller_manager" output="screen"
